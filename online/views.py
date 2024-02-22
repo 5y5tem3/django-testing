@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def homeView(request):
-    return render(request, "base.html")
+def storView(request):  
+    return render(request, "online/store.html")
